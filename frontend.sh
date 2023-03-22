@@ -9,6 +9,6 @@ unzip /tmp/frontend.zip
 #As it dont have VI editor to edit the files, we create the file locally and copy to the location to where our scripts are exist.
 
 
-cp $script_location/files/nginx.roboshop.conf /etc/nginx/default.d/roboshop.conf
+cp $script_location/Files/Nginx.Roboshop.conf /etc/nginx/default.d/roboshop.conf
 
 systemctl restart nginx
