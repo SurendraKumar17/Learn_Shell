@@ -5,7 +5,7 @@ yum install nodejs -y
 useradd roboshop
 mkdir /app
 curl -L -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalogue.zip
-rm -rf /app/*
+rm -rf /app/*  #removing the directory app
 cd /app
 unzip /tmp/catalogue.zip
 cd /app
