@@ -2,7 +2,7 @@
 
 #declare a function
 example(){
-  echo im a example funtions
+  echo im a example funtion
 }
 
 #calling a function
