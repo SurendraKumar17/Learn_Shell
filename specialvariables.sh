@@ -8,7 +8,7 @@ echo "# - $#"
 
 example() {
   echo "following values from function"
-  echo "0 - $0"
+  echo "0 - $0" # Not applicable for functions
   echo "1 - $1"
   echo "2 - $2"
   echo "* - $*"
