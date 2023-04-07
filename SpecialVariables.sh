@@ -6,8 +6,8 @@ echo "* - $*"
 echo "@ - $@"
 echo "# - $#"
 
-echo following values from function
 example() {
+  echo "following values from function"
   echo "0 - $0"
   echo "1 - $1"
   echo "2 - $2"
