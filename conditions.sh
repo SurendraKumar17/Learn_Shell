@@ -1,4 +1,4 @@
-##ifelse..
+##ifelse...
 a=11
 if [ a=10 ]
 then
